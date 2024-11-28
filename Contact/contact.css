@@ -274,7 +274,7 @@ a{
 
 .social-icons i{
     color: white;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 a{
@@ -289,19 +289,30 @@ a:hover{
     color: red;
 }
 
-.bottom-bar{
-    background: red;
-    text-align: center;
-    padding: 5px 0;
-    margin-top: 50px;
-
-    
-} 
-
-.bottom-bar p{
-    color: black;
-    margin: 0;
-    font-size: 12px;
-    padding: 1px;
+.footer-content img{
+    display: block;
+    margin: 10px auto;
+    max-width: 10rem;
 }
 
+.bottom-bar{
+    background: black;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+
+.center-line{
+    height: 2px;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.bottom-bar p{
+    color: white;
+    margin: 0;
+    font-size: 12px;
+    padding: 2px;
+}
